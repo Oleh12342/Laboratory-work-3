@@ -1,0 +1,5 @@
+my_string = "Сьогодні гарна погода."
+
+reversed_slice = my_string[-2::-1]
+
+print(reversed_slice)
