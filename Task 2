@@ -1,0 +1,13 @@
+while True:
+
+    word = input("Введіть слово: ")
+
+
+    if " " not in word:
+
+        reversed_word = word[::-1]
+        print(f"Слово у зворотному порядку:", reversed_word)
+        break
+
+    else:
+        print("Введено більше ніж одне слово. Спробуйте ще раз.")
